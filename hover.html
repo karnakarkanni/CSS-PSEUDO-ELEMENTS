@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    background-color: rgb(160, 216, 132);
+}
+    .main{
+        display:flex;
+        gap: 10px;
+        border: 2px solid;
+        position: absolute;
+        margin-top: 200px;
+        margin-left:40%;
+        background-color: blue;
+    }
+    .b1:hover~img{
+        background-color: rgb(6, 6, 9);
+        color: aqua;
+        display: flex;
+        
+    }
+    .b2:hover~img{
+        background-color: rgb(162, 107, 35);
+        color: aqua;
+        display: flex;
+    }
+    .b3:hover~img{
+        background-color: rgb(237, 43, 185);
+        color: aqua;
+        display: flex;
+    }
+    .b4:hover~img{
+        background-color: rgb(8, 237, 19);
+        color: aqua;
+        display: flex;
+    }
+    .b5:hover~img{
+        background-color: rgb(22, 15, 236);
+        color: aqua;
+        display: flex;
+    }
+    img{
+        display: none;       
+        margin-top: 200px;
+        position:absolute;
+        
+    }
+    button{
+        background-color: black;
+        color: aqua;
+    }
+   
+</style>
+<body>
+    <div class="main">
+        <div ><button class="b1">cat</button>
+            <img src="https://www.origastock.com/images/animals/cats/source/1.webp" width="150px">
+
+        </div>
+        
+        <div ><button class="b2">dog</button>
+            <img src="https://i.redd.it/eg3nu66wehk51.jpg" width="100px" >
+        </div>
+        <div ><button class="b3">duck</button>
+            <img src="https://www.kalmbachfeeds.com/cdn/shop/articles/two-white-ducks-in-grass.jpg?v=1706873608" width="200px">
+        </div>
+        <div > <button class="b4">Elephant</button>
+            <img src="https://cdn1.byjus.com/wp-content/uploads/blog/2023/03/17131610/STIM_Happy-Baby-Elephant-Running-scaled.jpeg" width="200px">
+        </div>
+        <div ><button class="b5">fox</button>
+            <img src="https://www.dewildliferescue.com/wp-content/uploads/2022/12/RedFox.StephanieFaustPhotography.jpeg" width="200px">
+        </div>
+    </div>
+    
+</body>
+</html>
